@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Where\'s My Penny</string>
+
+    <!-- Bottom navigation labels -->
+    <string name="nav_overview">Overview</string>
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common actions -->
+    <string name="action_add_transaction">Add transaction</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_back">Back</string>
+
+    <!-- Placeholder screen labels (removed in later milestones) -->
+    <string name="screen_overview_placeholder">Overview coming soon</string>
+    <string name="screen_transactions_placeholder">Transactions coming soon</string>
+    <string name="screen_add_transaction_placeholder">Add Transaction coming soon</string>
+    <string name="screen_reports_placeholder">Reports coming soon</string>
+    <string name="screen_settings_placeholder">Settings coming soon</string>
+</resources>

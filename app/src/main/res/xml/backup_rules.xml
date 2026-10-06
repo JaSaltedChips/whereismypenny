@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android 11 and below (API ≤ 30): controls Auto Backup.
+    The database is excluded because users back up explicitly via in-app export.
+    Allowing system cloud backup would silently upload financial data under the
+    user's cloud settings without a clear disclosure.
+-->
+<full-backup-content>
+    <exclude domain="database" path="wheresmypenny.db" />
+    <exclude domain="database" path="wheresmypenny.db-shm" />
+    <exclude domain="database" path="wheresmypenny.db-wal" />
+</full-backup-content>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Defense in depth: cleartext HTTP is disabled app-wide.
+    The app has no INTERNET permission, but this config prevents
+    any dependency from accidentally opening a cleartext connection
+    if the permission is ever inadvertently added.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>
